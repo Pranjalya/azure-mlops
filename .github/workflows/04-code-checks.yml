@@ -1,10 +1,10 @@
 name: Code checks
 
 on:
-  - workflow_dispatch:
-  - pull_request:
-      branch:
-        - main
+  workflow_dispatch:
+  pull_request:
+    branch:
+      - main
 
 jobs:
   job1:
